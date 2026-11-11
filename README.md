@@ -1,36 +1,145 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AFTERHOURS — No Curfew. No Rules.
+
+An experimental digital flagship for an independent streetwear label. Built around underground culture, bold typography, cinematic visuals, and unconventional layouts.
+
+**AFTERHOURS** explores the intersection of fashion, branding, and digital experiences.
+
+---
+
+## Preview
+
+<!-- Add your homepage screenshot here -->
+<!-- ![AFTERHOURS Homepage](./public/images/preview/homepage.png) -->
+
+## About the Project
+
+AFTERHOURS is a fictional streetwear brand concept developed as a frontend portfolio project.
+
+The website combines an experimental editorial-style homepage with a clean, intuitive collection browsing experience. Its visual direction draws inspiration from underground street culture, nighttime photography, brutalist architecture, and contemporary fashion campaigns.
+
+**NOT MADE FOR EVERYONE. MADE FOR YOURSELF.**
+
+## Features
+
+- Cinematic full-screen hero section
+- Experimental editorial layouts
+- Animated typography and marquee sections
+- Responsive navigation with mobile menu
+- Brand manifesto and campaign sections
+- Collection overview and individual collection pages
+- Product showcase and detail pages
+- Interactive product category filters
+- Custom animated 404 page
+- Newsletter interface (frontend demo)
+- Responsive layouts across screen sizes
+- Reduced-motion considerations
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js | React framework and routing |
+| React.js | UI development |
+| Tailwind CSS | Styling and responsive layouts |
+| Framer Motion | Animations and transitions |
+| Lucide React | Icons |
+| JavaScript | Application logic |
+
+## Design Direction
+
+**Visual identity:** Underground / Experimental / Contemporary
+
+| Element | Value |
+|---|---|
+| Obsidian | `#111111` |
+| Off-white | `#EAE8E1` |
+| Acid lime | `#D7FF00` |
+| Concrete | `#888888` |
+
+**Typography**
+- Archivo Black — Headlines and display typography
+- Space Grotesk — Body text, navigation and supporting content
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/afterhours.git
+```
+
+Navigate to the project:
+
+```bash
+cd afterhours
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```text
+afterhours/
+├── public/
+│   ├── images/
+│   └── logos/
+├── src/
+│   ├── app/
+│   │   ├── (site)/
+│   │   │   ├── about/
+│   │   │   ├── collections/
+│   │   │   ├── contact/
+│   │   │   ├── products/
+│   │   │   └── shop/
+│   │   ├── layout.js
+│   │   ├── globals.css
+│   │   └── not-found.js
+│   ├── components/
+│   └── data/
+├── package.json
+└── README.md
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Scope
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This is a frontend-only brand demonstration project.
 
-## Deploy on Vercel
+- No real payment processing
+- No backend authentication
+- No production shopping cart
+- Product and collection content is fictional
+- Newsletter interaction is a frontend demonstration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Credits
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Designed and developed as an independent creative development project.
+
+---
+
+**AFTERHOURS — EXIST BEYOND EXPECTATIONS.**
